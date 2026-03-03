@@ -1,0 +1,145 @@
+[
+  {
+    "model": "core.category",
+    "pk": 1,
+    "fields": {"name": "Footwear", "slug": "footwear", "created_at": "2026-03-03T00:00:00Z", "updated_at": "2026-03-03T00:00:00Z"}
+  },
+  {
+    "model": "core.category",
+    "pk": 2,
+    "fields": {"name": "Apparel", "slug": "apparel", "created_at": "2026-03-03T00:00:00Z", "updated_at": "2026-03-03T00:00:00Z"}
+  },
+  {
+    "model": "core.category",
+    "pk": 3,
+    "fields": {"name": "Accessories", "slug": "accessories", "created_at": "2026-03-03T00:00:00Z", "updated_at": "2026-03-03T00:00:00Z"}
+  },
+  {
+    "model": "core.category",
+    "pk": 4,
+    "fields": {"name": "Recovery", "slug": "recovery", "created_at": "2026-03-03T00:00:00Z", "updated_at": "2026-03-03T00:00:00Z"}
+  },
+  {
+    "model": "core.brand",
+    "pk": 1,
+    "fields": {"name": "Apex", "slug": "apex", "created_at": "2026-03-03T00:00:00Z", "updated_at": "2026-03-03T00:00:00Z"}
+  },
+  {
+    "model": "core.brand",
+    "pk": 2,
+    "fields": {"name": "Velocity", "slug": "velocity", "created_at": "2026-03-03T00:00:00Z", "updated_at": "2026-03-03T00:00:00Z"}
+  },
+  {
+    "model": "core.brand",
+    "pk": 3,
+    "fields": {"name": "Pulse", "slug": "pulse", "created_at": "2026-03-03T00:00:00Z", "updated_at": "2026-03-03T00:00:00Z"}
+  },
+  {
+    "model": "core.product",
+    "pk": 1,
+    "fields": {
+      "name": "Apex Sprint Pro",
+      "slug": "apex-sprint-pro",
+      "description": "Ultra-light sprint spikes tuned for explosive starts and track control.",
+      "price": "189.00",
+      "is_active": true,
+      "rating": "4.8",
+      "stock": 24,
+      "category": 1,
+      "brand": 1,
+      "hero_image": "https://images.unsplash.com/photo-1528701800489-20be3c3f425b?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2026-03-03T00:00:00Z",
+      "updated_at": "2026-03-03T00:00:00Z"
+    }
+  },
+  {
+    "model": "core.product",
+    "pk": 2,
+    "fields": {
+      "name": "Velocity Strike Boots",
+      "slug": "velocity-strike-boots",
+      "description": "Grip-first football boots with carbon spine and speed lacing.",
+      "price": "149.00",
+      "is_active": true,
+      "rating": "4.6",
+      "stock": 18,
+      "category": 1,
+      "brand": 2,
+      "hero_image": "https://images.unsplash.com/photo-1519915028121-7d3463d20b13?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2026-03-03T00:00:00Z",
+      "updated_at": "2026-03-03T00:00:00Z"
+    }
+  },
+  {
+    "model": "core.product",
+    "pk": 3,
+    "fields": {
+      "name": "Pulse Core Hoodie",
+      "slug": "pulse-core-hoodie",
+      "description": "Warm-up hoodie engineered with stretch knit and moisture release panels.",
+      "price": "96.00",
+      "is_active": true,
+      "rating": "4.7",
+      "stock": 42,
+      "category": 2,
+      "brand": 3,
+      "hero_image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2026-03-03T00:00:00Z",
+      "updated_at": "2026-03-03T00:00:00Z"
+    }
+  },
+  {
+    "model": "core.product",
+    "pk": 4,
+    "fields": {
+      "name": "Apex Elite Gloves",
+      "slug": "apex-elite-gloves",
+      "description": "Breathable grip gloves with reinforced palms for every position.",
+      "price": "44.00",
+      "is_active": true,
+      "rating": "4.4",
+      "stock": 80,
+      "category": 3,
+      "brand": 1,
+      "hero_image": "https://images.unsplash.com/photo-1511556820780-d912e42b4980?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2026-03-03T00:00:00Z",
+      "updated_at": "2026-03-03T00:00:00Z"
+    }
+  },
+  {
+    "model": "core.product",
+    "pk": 5,
+    "fields": {
+      "name": "Velocity Flex Shorts",
+      "slug": "velocity-flex-shorts",
+      "description": "4-way stretch training shorts with mesh ventilation zones.",
+      "price": "58.00",
+      "is_active": true,
+      "rating": "4.5",
+      "stock": 60,
+      "category": 2,
+      "brand": 2,
+      "hero_image": "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2026-03-03T00:00:00Z",
+      "updated_at": "2026-03-03T00:00:00Z"
+    }
+  },
+  {
+    "model": "core.product",
+    "pk": 6,
+    "fields": {
+      "name": "Pulse Recovery Roller",
+      "slug": "pulse-recovery-roller",
+      "description": "Deep tissue foam roller with vibration modes and pressure tracking.",
+      "price": "120.00",
+      "is_active": true,
+      "rating": "4.9",
+      "stock": 12,
+      "category": 4,
+      "brand": 3,
+      "hero_image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2026-03-03T00:00:00Z",
+      "updated_at": "2026-03-03T00:00:00Z"
+    }
+  }
+]
